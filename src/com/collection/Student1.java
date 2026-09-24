@@ -20,4 +20,8 @@ public class Student1{
 
         System.out.println(s1.equals(s2));
     }
+    public String toString(){
+        return "Student1 [sname= "+ sname +",rno ="+ rno+"]";
+    }
+
 }
