@@ -13,5 +13,8 @@ public class VectorDemo1 {
         v.addElement("A");
         System.out.println(v.capacity());
         System.out.println(v);
+
+        Vector v1 = new Vector(24);
+        System.out.println(v1.capacity());
     }
 }
