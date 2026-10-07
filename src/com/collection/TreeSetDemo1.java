@@ -10,6 +10,6 @@ public class TreeSetDemo1 {
         t.add(new StringBuffer("B"));
         t.add(new StringBuffer("L"));
 
-        System.out.println(t);
+        System.out.println(t); 
     }
 }
