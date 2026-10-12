@@ -5,6 +5,7 @@ import java.util.Hashtable;
 public class HashTableDemo1 {
     public static void main(String[] args){
         Hashtable h = new Hashtable();
+//        Hashtable h = new Hashtable(25);
         h.put(new Temp1(5),"A");
         h.put(new Temp1(2),"B");
         h.put(new Temp1(6),"C");
