@@ -12,7 +12,6 @@ public class PropertiesDemo2 {
         Properties p = new Properties();
         FileInputStream fis = new FileInputStream("db.properties");
         p.load(fis);
-
         String url = p.getProperty("url");
         String user = p.getProperty("user");
         String pwd = p.getProperty("pwd");
