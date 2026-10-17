@@ -10,7 +10,7 @@ A structured collection of Java programs, coding exercises, and practical exampl
 - Methods and variable arguments
 - Arrays and problem-solving
 - Static and non-static members
-- Type casting and variable scope
+- Type casting and variable scope.
 
 ### 2. Object-Oriented Programming (OOP)
 - Classes and objects
