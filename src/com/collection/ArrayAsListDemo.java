@@ -6,6 +6,7 @@ import java.util.List;
 public class ArrayAsListDemo {
     public static void main(String[] args) {
         String[] s = {"A","Z","B"};
+        System.out.println(s[1]);
         List l = Arrays.asList(s);
         s[0] = "K";
         System.out.println(l);
