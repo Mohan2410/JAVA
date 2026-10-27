@@ -3,10 +3,16 @@ import java.util.Scanner;
 class SwapDemo{
     static void swapNumber(int a,int b){
         System.out.println("Before Swaping the values of a="+a+" and b="+b);
-        int temp;
-        temp = a;
-        a = b;
-        b = temp;
+        //approach 1:
+//        int temp;
+//        temp = a;
+//        a = b;
+//        b = temp;
+
+        //approach 2:
+        a = a + b;
+        b = a - b;
+        a = a - b;
         System.out.println("After Swaping the values of a="+a+" and b="+b);
     }
 }
