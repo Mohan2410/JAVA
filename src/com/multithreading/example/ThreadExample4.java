@@ -16,8 +16,10 @@ class SleepMethodThread implements Runnable{
 class JoinMethodThread implements Runnable{
     public void run(){
         System.out.println(Thread.currentThread().getName());
-        System.out.println("Hello From Thread 2");
-        System.out.println("Hello From Thread 2");
+        for(int i=1;i<=5;i++){
+            System.out.println("Hello From Thread 2");
+        }
+
     }
 }
 public class ThreadExample4 {
