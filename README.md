@@ -36,7 +36,7 @@ A structured collection of Java programs, coding exercises, and practical exampl
 
 ### 5. Exception Handling
 - Exception handling fundamentals
-- Try-catch and exception propagation
+- Try-catch, finally and exception propagation
 - Custom exceptions
 - Runtime exceptions and error handling
 
