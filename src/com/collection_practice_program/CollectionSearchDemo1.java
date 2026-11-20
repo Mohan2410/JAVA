@@ -19,6 +19,7 @@ public class CollectionSearchDemo1 {
         System.out.println(Collections.binarySearch(l,10,new CollectionSearchDemo1MyComparator()));
         System.out.println(Collections.binarySearch(l,13,new CollectionSearchDemo1MyComparator()));
         System.out.println(Collections.binarySearch(l,99,new CollectionSearchDemo1MyComparator()));
+        System.out.println(Collections.binarySearch(l,89,new CollectionSearchDemo1MyComparator()));
 
     }
 }
