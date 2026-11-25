@@ -1,6 +1,6 @@
 class JobFinderBackend{
     public boolean isHiring(){
-        return  true;
+        return  false;
     }
     public String hrContact(String resume){
         if(isHiring() && uploadResume(resume)){
@@ -24,6 +24,11 @@ class JobFinderAPplication extends JobFinderBackend{
     public boolean uploadResume(String file){
         return super.uploadResume(file);
     }
+
+    @Override
+    public boolean isHiring(){
+        return true;
+    }
 }
 public class User {
     public static void main(String[] args) {
@@ -31,7 +36,7 @@ public class User {
         boolean uploadResume =  application.uploadResume("File: Spring,SpringBoot,Microservices");
         if (uploadResume) {
             System.out.println("After Shortlisting: HR will contact");
-            application.hrContact("file");
+            System.out.println(application.hrContact("File: Spring,SpringBoot,Microservices"));
         }
 
     }
